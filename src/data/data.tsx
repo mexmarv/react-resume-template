@@ -13,8 +13,9 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio1.png';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import profilepic from '../images/marv.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -212,16 +213,22 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Uvicorn + FastAPI = MX SAT API Server',
+    description: 'Validate Fiscal data from SAT MX, generate RFC and CURP.',
+    url: 'https://github.com/mexmarv/mx-sat-toolkit',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'VentMex - Open Source Ventilator',
+    description: 'Open source full design ventilator.',
+    url: 'https://ventmex.makersmexico.org',
     image: porfolioImage2,
+  },
+  {
+    title: 'Revenue Occupancy Optimization with Dynamic Pricing',
+    description: 'Open source dynamic pricing for hotel rooms.',
+    url: 'https://github.com/mexmarv/noktos-RGM/blob/master/noktosRGM.ipynb',
+    image: porfolioImage3,
   }
 ];
 
