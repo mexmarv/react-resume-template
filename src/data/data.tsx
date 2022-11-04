@@ -376,7 +376,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'mexmarv',
       href: 'https://github.com/mexmarv',
     },
   ],
